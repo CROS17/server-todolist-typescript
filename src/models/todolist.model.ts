@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
 import db from '../config/bd.config';
 
-const Tarea = db.define('Tareas', {
+const Tarea = db.define('tareas', {
     name: {
         type: DataTypes.STRING
     },
